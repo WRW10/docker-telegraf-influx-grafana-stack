@@ -49,7 +49,7 @@ services:
 volumes:
   grafana_data: {}
   influxdb_data: {}
-  networks:
-    TIG:
-    proxy:
-      external: true
+networks:
+  TIG:
+  proxy:
+    external: true
