@@ -50,6 +50,6 @@ volumes:
   grafana_data: {}
   influxdb_data: {}
   networks:
-  TIG:
-  proxy:
-    external: true
+    TIG:
+    proxy:
+      external: true
